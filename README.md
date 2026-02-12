@@ -2,7 +2,7 @@
 
 Nowoczesna strona wizytówka dla cukierni, zmigrowana z statycznego HTML do **React + TypeScript**. Projekt wykorzystuje **Vite** dla błyskawicznego ładowania oraz **Tailwind CSS** dla stylizacji.
 
-![Słodki Kącik Preview](https://imgur.com/a/DGO1zUV)
+[Słodki Kącik Preview](https://imgur.com/a/DGO1zUV)
 
 ## 🚀 Technologie
 
