@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Płynne przewijanie */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8B4B8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d69fa3;
+}
+
+/* Animacje dla Toastów w React (jeśli używamy biblioteki, to zbędne, ale dla custom implementation się przyda) */
+.toast-enter {
+  transform: translateX(100%);
+}
+.toast-enter-active {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.toast-exit {
+  transform: translateX(0);
+}
+.toast-exit-active {
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
